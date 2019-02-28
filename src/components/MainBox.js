@@ -57,7 +57,7 @@ export default class Mainbox extends Component {
             output = <Quotemachine array={this.state.data} limit={4} />
         }
         return (
-            <section className="text-center m-4">Cool
+            <section className="text-center m-4">
                 <button className="btn btn-primary" onClick={this.getNewQuote}>Press</button>
                 {output}
             </section>

@@ -20,16 +20,6 @@ code {
     monospace;
 }
 
-/* .wrapper { 
-  display:flex;
-}
-.to {
-  margin: auto;
-} */
-.tomte {
-  margin:auto;
-}
-
 .slidemenu-expanded {
   background-color:deepskyblue;
   width: 400px;
