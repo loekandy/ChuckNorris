@@ -13,17 +13,16 @@ export default class Mainbox extends Component {
         }
     }
 
-
     fakeLoading = () => {
         this.setState({
             loading: true
+        }, () => {
+            setTimeout(() => {
+                this.setState({
+                    loading: false
+                });
+            }, 100);
         });
-
-        setTimeout(() => {
-            this.setState({
-                loading: false
-            });
-        }, 1000);
     }
 
 
@@ -35,15 +34,6 @@ export default class Mainbox extends Component {
             }));
         });
     }
-
-    // getNewQuote = () => {
-    //     this.fakeLoading();
-    //     axios.get("https://geek-jokes.sameerkumar.website/api").then((response) => {
-    //         // this.setState((prevState) => ({
-    //         //     data: [...prevState.data, response.data]
-    //         // });
-    //     }
-    // }
 
     render() {
         const { data, loading } = this.state;

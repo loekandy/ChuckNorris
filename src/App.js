@@ -29,47 +29,6 @@ class App extends Component {
           <Route path="/counter" component={Counter} />
         </div>
       </Router>
-
-      // <Router>
-      //   <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      //     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      //       <li class="nav-item active">
-      //         <a class="nav-link"><Link to="/">Home</Link></a>
-      //       </li>
-      //       <li class="nav-item">
-      //         <a class="nav-link"><Link to="/chucknorris">Cool</Link></a>
-      //       </li>
-      //       <li class="nav-item">
-      //         <a class="nav-link"><Link to="/counter">Not Cool</Link></a>
-      //       </li>
-      //       <li></li>
-      //     </ul>
-      //   </nav>
-      //   <Route path="/chucknorris" component={Mainbox} />
-      //   <Route path="/counter" component={Counter} />
-      // </Router>
-
-
-      /* <Router>
-        <div>
-        <nav className="navbar navbar-reverse">
-          <ul className="nav navbar-nav">
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/chucknorris">HumorMe</Link>
-            </li>
-            <li>
-              <Link to="/counter">Counter</Link>
-            </li>
-          </ul>
-          <hr />
-          <Route path="/chucknorris" component={Mainbox} />
-          <Route path="/counter" component={Counter} />
-          </nav>
-        </div>
-      </Router> */
     );
   }
 }
