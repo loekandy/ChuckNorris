@@ -21,7 +21,7 @@ export default class Mainbox extends Component {
                 this.setState({
                     loading: false
                 });
-            }, 100);
+            }, 1000);
         });
     }
 
